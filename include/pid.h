@@ -21,5 +21,5 @@ private:
     float kd_;
 public:
     Pid(float kp, float ki, float kd);
-    float new_velocity(float target, float velocity);
+    float new_velocity(float target, float actual_velocity);
 };

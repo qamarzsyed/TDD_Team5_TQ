@@ -16,9 +16,9 @@ using namespace std;
 
 int main()
 {
-    Pid test_pid(1,1,1);
-    float vel = test_pid.new_velocity(1,1);
-    cout << vel << endl;
+    Pid test_pid(0.1,0.1,0.01);
+    float vel = test_pid.new_velocity(100,0);
+    cout << "\nThe final velocity reached is :"<<vel << endl;
 
     return 0;
 }
