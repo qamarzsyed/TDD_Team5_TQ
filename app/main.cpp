@@ -1,6 +1,10 @@
 /**
  * @file main.cpp
- * @author Qamar Syed (qsyed@umd.edu) and Tanmay Haldankar (tanmayh@umd.edu)
+ * @author 
+ * Qamar Syed (qsyed@umd.edu)
+ * Tanmay Haldankar (tanmayh@umd.edu)
+ * Yashveer Jain (yashveer@umd.edu)
+ * Vignesh Ravichandran Radhakrishnan (rr94@umd.edu)
  * @brief Main function for PID controller implementation for TDD
  * @version 0.1
  * @date 2022-10-01
