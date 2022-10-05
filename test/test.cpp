@@ -15,13 +15,13 @@
  * @brief Instantiate a Pid controller and then run two compute tests on the new_velocity function
  * 
  */
-Pid test_pid(1,1,1);
+Pid test_pid(0.1,0.1,0.01);
 
 
 TEST(compute_test, case1) {
-  EXPECT_EQ(test_pid.new_velocity(0, 0), 0);
+  EXPECT_EQ(test_pid.new_velocity(0, 30), 0);
 }
 
 TEST(compute_test, case2) {
-  EXPECT_EQ(test_pid.new_velocity(1, 1), 1);
+  EXPECT_EQ(test_pid.new_velocity(100, 0), 100);
 }
