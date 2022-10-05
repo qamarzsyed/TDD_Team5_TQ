@@ -1,5 +1,4 @@
 ## Team Driven Development for Team 5
-Part 1 done by Tanmay Haldankar (Navigator) and Qamar Syed (Driver)
 
 ## Overview
 
@@ -24,3 +23,17 @@ cmake -D COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug ../
 make
 make code_coverage
 ```
+
+## Notes
+* Test cases can be improved with more real-time scenarios such as:
+    - decreasing the iteration count and achieveing the target set point 
+    - Find optimum number of iterations to reach any target velocity.
+
+## Author
+### Part1
+Tanmay Haldankar - Navigator
+Qamar Syed - Driver
+
+### Part2
+Yashveer Jain - Navigator
+Vignesh Ravichandran Radhakrishnan - Driver
