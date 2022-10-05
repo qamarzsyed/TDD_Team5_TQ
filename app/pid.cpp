@@ -9,7 +9,7 @@
  * @version 0.1
  * @date 2022-10-01
  *
- * @copyright copyright (c) 2022 Vignesh 
+ * @copyright Copyright (c) 2022 https://github.com/yashveer-umd/TDD_Team5_TQ.git
  *
  */
 

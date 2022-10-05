@@ -29,6 +29,11 @@ make code_coverage
     - decreasing the iteration count and achieveing the target set point 
     - Find optimum number of iterations to reach any target velocity.
 
+* run the command for proper formatting:
+```
+clang-format -style=Google -i app/main.cpp
+```
+
 ## Author
 ### Part1
 Tanmay Haldankar - Navigator

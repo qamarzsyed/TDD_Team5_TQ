@@ -1,3 +1,4 @@
+#pragma once
 /**
  * @file pid.h
  * @author Qamar Syed (qsyed@umd.edu) and Tanmay Haldankar (tanmayh@umd.edu)
@@ -5,10 +6,9 @@
  * @version 0.1
  * @date 2022-10-01
  * 
- * @copyright Copyright (c) 2022
+ * @copyright Copyright (c) 2022 https://github.com/yashveer-umd/TDD_Team5_TQ.git
  * 
  */
-#pragma once
 
 /**
  * @brief Pid class declaration
